@@ -1,4 +1,3 @@
-
 function isPalindrome(str) {
 	const reverse = str.split("").reverse().join("")
 	if (reverse == str) {

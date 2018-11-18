@@ -12,11 +12,8 @@ describe('se o param for vazio', ()=>{
   it('deve retornar valor vazio', ()=> expect(trueOrFalse('heloo')).to.not.be.NaN)
 })
 
-//para testar com mocha, vamos na linha de comando $ 'mocha "caminho do arquivo spec"' 
-
 const assert = require("assert")
 const isPalindrome = require("../palindrome.js")
-
 
 describe('a função deve retornar true ou false para os casos abaixo', () => {
 	it('', () => assert.equal(isPalindrome(''), true))
@@ -27,3 +24,5 @@ describe('a função deve retornar true ou false para os casos abaixo', () => {
 	it('52652', () => assert.equal(isPalindrome('52652'), false))
 	it('não', () => assert.equal(isPalindrome('não'), false))
 });
+
+//para testar com mocha, vamos na linha de comando $ 'mocha "caminho do arquivo spec"' 
